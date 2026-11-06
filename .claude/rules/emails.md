@@ -46,3 +46,15 @@ DataPath Academy, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
 - In the email file, write the sign-off and footer as plain text. Don't put them inside a code block. (The code block above only shows the layout.)
 - Keep the footer wording exactly as shown.
 - `{{company_address}}` and `{{unsubscribe_url}}` are placeholders. The email tool fills in our postal address and each reader's personal unsubscribe link.
+
+## 5. Name each file after its email ID in the plan
+
+- Start the file name with the email's ID from the campaign plan, then a short name. For example, `E3-meet-your-mentor.md`.
+- If an email has group versions, add the group letter, for example `E2-what-youll-build-A.md`.
+
+This makes it easy to match each draft to the right row in the plan's calendar.
+
+## 6. Keep the style the same in every email
+
+- **No comma before "and" or "or" at the end of a list.** Write "4 real projects, a mentor and a portfolio", not "4 real projects, a mentor, and a portfolio". This matches `brand/voice.md`.
+- **Use "I" for Ukasha and "we" for the academy.** The emails are signed by Ukasha, so personal lines use "I" (for example "I hope…" or "I'm happy to talk it through"). Use "we" only for what the academy does or promises (for example "We can't promise you a job").

@@ -12,7 +12,7 @@ Here is what you get:
 - **A portfolio** you can show to employers.
 - **12 weeks, fully online**, moving step by step from a quick refresher to harder topics.
 
-We can't promise you a job, and we won't pretend the work is easy. What we can promise is real projects, honest feedback from your mentor, and steady support while you practise.
+We can't promise you a job, and we won't pretend the work is easy. What we can promise is real projects, honest feedback and support from your mentor while you practise.
 
 If that sounds right for you, the link is below.
 

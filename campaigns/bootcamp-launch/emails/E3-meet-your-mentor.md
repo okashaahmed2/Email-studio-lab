@@ -1,4 +1,4 @@
-Subject: Meet your mentor: how project reviews work
+Subject: How mentor reviews work
 Preview: You won't be learning alone. Here's what mentor support looks like.
 
 Hi {{first_name}},
@@ -9,7 +9,7 @@ That's why every student in the bootcamp gets a mentor.
 
 **What your mentor does**
 
-Your mentor reviews each of your 4 real projects. They look at your work, tell you what is working, and suggest what to improve next. You then use that feedback to make the project stronger before it goes into your portfolio.
+Your mentor reviews each of your 4 real projects. They look at your work, tell you what is working and suggest what to improve next. You then use that feedback to make the project stronger before it goes into your portfolio.
 
 **Why it helps**
 

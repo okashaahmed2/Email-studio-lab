@@ -1,9 +1,9 @@
 Subject: A look at the 12 weeks, step by step
-Preview: A calm, practical overview to help you plan around the new year.
+Preview: A simple outline of the 12 weeks to help you plan your new year.
 
 Hi {{first_name}},
 
-I hope you had a restful break. If you're thinking about the year ahead, here is a simple look at how the 12 weeks fit together, so you can plan.
+I hope the last few weeks have treated you well. If you're thinking about the year ahead, here is a simple look at how the 12 weeks fit together, so you can plan.
 
 **The order we move through**
 
@@ -21,7 +21,7 @@ The full course outline on the enrolment page shows which weeks cover each topic
 
 The bootcamp is fully online, so you can study from anywhere. It does take real, steady effort each week. Before you decide, it may help to think about which days and times you can set aside for study.
 
-If you're not sure the timing will work for you, reply to this email and ask. We're happy to talk it through.
+If you're not sure the timing will work for you, reply to this email and ask. I'm happy to talk it through.
 
 [See the full course outline](https://datapath.example/bootcamp)
 

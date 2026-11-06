@@ -1,9 +1,9 @@
 Subject: Enrolment for the bootcamp is now open
-Preview: 12 weeks, 4 real projects, and a mentor who reviews your work.
+Preview: 12 weeks, 4 real projects and a mentor who reviews your work.
 
 Hi {{first_name}},
 
-You joined our waitlist for the 12-week Data Science Bootcamp. Thank you for waiting. Enrolment for the first cohort is now open.
+You joined our waitlist for the 12-week Data Science Bootcamp. Thank you for waiting. Enrolment is now open for the first group of students.
 
 Here is the bootcamp in one line: you build a portfolio of 4 real projects in 12 weeks, step by step, with a mentor who reviews your work.
 
@@ -20,11 +20,11 @@ We go from basic to advanced. Many of you already know some data science, so the
 - pandas, a Python tool for working with tables of data
 - SQL, a language for getting data out of databases
 - data visualisation, which means turning data into clear charts
-- machine learning basics
+- machine learning basics, which means teaching a computer to find patterns in data
 
 **What it takes**
 
-The bootcamp is fully online, so you can study from anywhere. It also takes real effort. You'll write code, get stuck sometimes, and improve with practice. Your mentor is there to support you through the hard parts.
+The bootcamp is fully online, so you can study from anywhere. It also takes real effort. You'll write code, get stuck sometimes and improve with practice. Your mentor is there to support you through the hard parts.
 
 The enrolment page has the price, the start date and the full course outline. Take your time to read it.
 
