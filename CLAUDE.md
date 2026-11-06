@@ -14,3 +14,7 @@ This folder is a studio for planning and writing email campaigns for **DataPath 
 1. **Write in plain English.** Use short sentences and everyday words, and explain any technical term.
 2. **Never send email to real people.** Write drafts only. Any test sends go to test addresses, never to real leads or students.
 3. **Ask me before deleting anything.** This includes files, folders and lines of text in existing documents.
+
+## Brand voice
+
+@brand/voice.md
