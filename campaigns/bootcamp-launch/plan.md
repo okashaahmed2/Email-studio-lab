@@ -138,7 +138,7 @@ A free, 45-minute online Q&A with the Lead Mentor, promoted only by email. This 
 | 3 | Mon 21 Dec | **E5. Q&A recording and top questions** | Everyone not yet enrolled | Share the recording (or a written FAQ if no Q&A). Last email before the holiday break. | Not started |
 | 3 | 22–27 Dec | No emails | n/a | Holiday pause. Answer replies only. | n/a |
 | 4 | Mon 28 Dec | **E6. A week by week look at the 12 weeks** | Everyone not yet enrolled | Calm, practical overview to help people plan around the new year. | Not started |
-| 4 | Tue 29 Dec | **E7. Resend of E1 with a new subject line** | People who never opened E1 | Only goes to people who haven't opened any email in the series. | Not started |
+| 4 | Tue 29 Dec | **E7. Resend of E1 with a new subject line** | People who haven't opened any email in the series so far | Only goes to people who haven't opened any email in the series so far. | Not started |
 | 4 | Sat 2 Jan | **E8. Enrolment reminder** | Everyone not yet enrolled | Only mention a deadline if there is a real one. Otherwise a gentle "here's the link if you're ready". | Not started |
 | 4 | Sun 3 Jan | **E9. Closing note** (only if enrolment really closes) | Everyone not yet enrolled | Plain, factual note that enrolment for this cohort closes today, and how to hear about the next one. Skip if there's no real deadline. | Not started |
 | After | Mon 4 Jan | Results review | Team | See section 7. | Not started |
