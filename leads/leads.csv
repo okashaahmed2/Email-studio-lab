@@ -1,0 +1,25 @@
+first_name,last_name,email,group,joined_on,consent
+Ayesha,Khan,ayesha.khan@example.com,students,2026-09-14,waitlist form
+Tom,Becker,tom.becker@example.com,career-switchers,2026-09-22,waitlist form
+Priya,Nair,priya.nair@example.com,students,2026-09-03,waitlist form
+Lucas,Moreau,lucas.moreau@example.com,students,2026-09-08,waitlist form
+Chen,Wei,chen.wei@example.com,students,2026-09-19,waitlist form
+Fatima,Ali,fatima.ali@example.com,students,2026-09-27,waitlist form
+Daniel,Okafor,daniel.okafor@example.com,students,2026-10-04,waitlist form
+Sofia,Rossi,sofia.rossi@example.com,students,2026-10-12,waitlist form
+Hamza,Siddiqui,hamza.siddiqui@example.com,students,2026-10-21,waitlist form
+Maria,Lopez,maria.lopez@example.com,career-switchers,2026-09-05,waitlist form
+James,Walker,james.walker@example.com,career-switchers,2026-09-11,waitlist form
+Nadia,Haddad,nadia.haddad@example.com,career-switchers,2026-09-30,waitlist form
+Kenji,Tanaka,kenji.tanaka@example.com,career-switchers,2026-10-06,waitlist form
+Grace,Mensah,grace.mensah@example.com,career-switchers,2026-10-15,waitlist form
+Omar,Farouk,omar.farouk@example.com,career-switchers,2026-10-23,waitlist form
+Elena,Petrova,elena.petrova@example.com,career-switchers,2026-10-29,waitlist form
+Rachel,Cohen,rachel.cohen@example.com,working-pros,2026-09-02,waitlist form
+Arjun,Mehta,arjun.mehta@example.com,working-pros,2026-09-16,waitlist form
+Laura,Schmidt,laura.schmidt@example.com,working-pros,2026-09-25,waitlist form
+Bilal,Hussain,bilal.hussain@example.com,working-pros,2026-10-02,waitlist form
+Hannah,Brooks,hannah.brooks@example.com,working-pros,2026-10-09,waitlist form
+Diego,Fernandez,diego.fernandez@example.com,working-pros,2026-10-18,waitlist form
+Amara,Eze,amara.eze@example.com,working-pros,2026-10-26,waitlist form
+Sara,Lindqvist,sara.lindqvist@example.com,working-pros,2026-11-02,waitlist form
