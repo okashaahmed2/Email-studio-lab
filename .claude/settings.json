@@ -10,6 +10,9 @@
   "enabledPlugins": {
     "marketing@knowledge-work-plugins": true
   },
+  "permissions": {
+    "deny": ["Read(./.env)"]
+  },
   "hooks": {
     "PreToolUse": [
       {
