@@ -1,32 +1,40 @@
 {
+  "folder": "campaigns/test-bad",
   "findings": [
     {
-      "file": "campaigns/bootcamp-launch/groups/students/emails/E1-enrolment-open.md",
+      "file": "campaigns/test-bad/emails/01-bad.md",
       "line": 1,
-      "severity": "low",
-      "problem": "Group version file names have no group letter. The rule says group versions need it. This affects all 4 student files: E1-enrolment-open.md, E3-meet-your-mentor.md, E6-week-by-week.md and E8-enrolment-reminder.md.",
-      "fix": "Rename with the Group A letter, for example E1-enrolment-open-A.md, E3-meet-your-mentor-A.md, E6-week-by-week-A.md and E8-enrolment-reminder-A.md."
+      "severity": "high",
+      "problem": "Still not fixed. The subject still says \"Last chance\". That is fake urgency, which voice.md bans unless it is true. The exclamation mark also breaks the calm, no-shouting tone.",
+      "fix": "Use a calm subject with no deadline, for example: \"Build your portfolio in 12 weeks\". Only mention a deadline if there is a real enrolment date, and then give the date plainly."
     },
     {
-      "file": "campaigns/bootcamp-launch/groups/career-switchers/emails/E1-enrolment-open.md",
-      "line": 1,
-      "severity": "low",
-      "problem": "Group version file names have no group letter. This affects all 4 career-switcher files: E1, E3, E6 and E8.",
-      "fix": "Rename with the Group B letter, for example E1-enrolment-open-B.md, E3-meet-your-mentor-B.md, E6-week-by-week-B.md and E8-enrolment-reminder-B.md."
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 8,
+      "severity": "high",
+      "problem": "Still not fixed. The opening line still says \"This is your last chance to join\". That is fake urgency and pressure.",
+      "fix": "Replace it with a calm opener that says what the bootcamp is, for example: \"I wanted to tell you about our 12-week Data Science Bootcamp. It's fully online.\""
     },
     {
-      "file": "campaigns/bootcamp-launch/groups/working-pros/emails/E1-enrolment-open.md",
-      "line": 1,
-      "severity": "low",
-      "problem": "Group version file names have no group letter. This affects all 4 working-professional files: E1, E3, E6 and E8.",
-      "fix": "Rename with the Group C letter, for example E1-enrolment-open-C.md, E3-meet-your-mentor-C.md, E6-week-by-week-C.md and E8-enrolment-reminder-C.md."
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 2,
+      "severity": "medium",
+      "problem": "Partly fixed. The \"100% job guarantee\" claim and \"ends soon\" are gone, but the preview still ends with \"Don't miss out.\" That is a pressure phrase, which goes against the calm, never-pushy voice.",
+      "fix": "Drop \"Don't miss out.\" For example: \"12 weeks, 4 real projects and a mentor who reviews your work.\""
     },
     {
-      "file": "campaigns/bootcamp-launch/groups/working-pros/emails/E8-enrolment-reminder.md",
-      "line": 13,
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 14,
+      "severity": "medium",
+      "problem": "Still not fixed. The body still has a second link (\"Read the full syllabus\" to /syllabus). emails.md rule 3 allows exactly one main link, and it must point to https://datapath.example/bootcamp.",
+      "fix": "Remove the syllabus link, or make it plain text with no link (for example, \"You'll find the full syllabus on the bootcamp page.\"). Keep only the [Enrol now] link."
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 1,
       "severity": "low",
-      "problem": "This bullet joins three ideas in one long phrase: '12 weeks, fully online, so there's no travel to classes after work, moving step by step from a quick refresher to harder topics.' 'Moving step by step' now seems to describe the travel, which is hard to follow. It breaks the 'short sentences, plain English' rule.",
-      "fix": "Split it into two bullets: '**12 weeks, fully online**, so there's no travel to classes after work.' and '**Step by step**, from a quick refresher to harder topics.'"
+      "problem": "Still not fixed. The file name \"01-bad.md\" does not start with an email ID from a campaign plan, as emails.md rule 5 requires (for example \"E1-...\").",
+      "fix": "Rename it to match its plan ID, for example \"E1-bad.md\". If this test campaign has no plan, give it an ID that follows the same pattern."
     }
   ]
 }

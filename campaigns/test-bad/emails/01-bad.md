@@ -1,5 +1,5 @@
 Subject: Last chance to join the bootcamp!
-Preview: Our 100% job guarantee ends soon. Don't miss out.
+Preview: A mentor reviews every project you build. Don't miss out.
 
 <!-- TEST FILE: this email breaks our rules on purpose, so the automatic review has something to catch. Never send it. -->
 
@@ -7,7 +7,7 @@ Hi {{first_name}},
 
 This is your last chance to join the 12-week Data Science Bootcamp.
 
-Every student gets a 100% job guarantee. Finish the course and you will be hired.
+Every student gets a mentor who reviews their projects. You finish with a portfolio you can show to employers.
 
 [Enrol now](https://datapath.example/bootcamp)
 
