@@ -1,0 +1,32 @@
+{
+  "findings": [
+    {
+      "file": "campaigns/bootcamp-launch/groups/students/emails/E1-enrolment-open.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Group version file names have no group letter. The rule says group versions need it. This affects all 4 student files: E1-enrolment-open.md, E3-meet-your-mentor.md, E6-week-by-week.md and E8-enrolment-reminder.md.",
+      "fix": "Rename with the Group A letter, for example E1-enrolment-open-A.md, E3-meet-your-mentor-A.md, E6-week-by-week-A.md and E8-enrolment-reminder-A.md."
+    },
+    {
+      "file": "campaigns/bootcamp-launch/groups/career-switchers/emails/E1-enrolment-open.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Group version file names have no group letter. This affects all 4 career-switcher files: E1, E3, E6 and E8.",
+      "fix": "Rename with the Group B letter, for example E1-enrolment-open-B.md, E3-meet-your-mentor-B.md, E6-week-by-week-B.md and E8-enrolment-reminder-B.md."
+    },
+    {
+      "file": "campaigns/bootcamp-launch/groups/working-pros/emails/E1-enrolment-open.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Group version file names have no group letter. This affects all 4 working-professional files: E1, E3, E6 and E8.",
+      "fix": "Rename with the Group C letter, for example E1-enrolment-open-C.md, E3-meet-your-mentor-C.md, E6-week-by-week-C.md and E8-enrolment-reminder-C.md."
+    },
+    {
+      "file": "campaigns/bootcamp-launch/groups/working-pros/emails/E8-enrolment-reminder.md",
+      "line": 13,
+      "severity": "low",
+      "problem": "This bullet joins three ideas in one long phrase: '12 weeks, fully online, so there's no travel to classes after work, moving step by step from a quick refresher to harder topics.' 'Moving step by step' now seems to describe the travel, which is hard to follow. It breaks the 'short sentences, plain English' rule.",
+      "fix": "Split it into two bullets: '**12 weeks, fully online**, so there's no travel to classes after work.' and '**Step by step**, from a quick refresher to harder topics.'"
+    }
+  ]
+}
