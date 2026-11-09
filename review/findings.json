@@ -1,40 +1,89 @@
 {
-  "folder": "campaigns/test-bad",
+  "folder": "campaigns/bootcamp-launch",
   "findings": [
     {
-      "file": "campaigns/test-bad/emails/01-bad.md",
-      "line": 1,
-      "severity": "high",
-      "problem": "Still not fixed. The subject still says \"Last chance\". That is fake urgency, which voice.md bans unless it is true. The exclamation mark also breaks the calm, no-shouting tone.",
-      "fix": "Use a calm subject with no deadline, for example: \"Build your portfolio in 12 weeks\". Only mention a deadline if there is a real enrolment date, and then give the date plainly."
-    },
-    {
-      "file": "campaigns/test-bad/emails/01-bad.md",
-      "line": 8,
-      "severity": "high",
-      "problem": "Still not fixed. The opening line still says \"This is your last chance to join\". That is fake urgency and pressure.",
-      "fix": "Replace it with a calm opener that says what the bootcamp is, for example: \"I wanted to tell you about our 12-week Data Science Bootcamp. It's fully online.\""
-    },
-    {
-      "file": "campaigns/test-bad/emails/01-bad.md",
-      "line": 2,
-      "severity": "medium",
-      "problem": "Partly fixed. The \"100% job guarantee\" claim and \"ends soon\" are gone, but the preview still ends with \"Don't miss out.\" That is a pressure phrase, which goes against the calm, never-pushy voice.",
-      "fix": "Drop \"Don't miss out.\" For example: \"12 weeks, 4 real projects and a mentor who reviews your work.\""
-    },
-    {
-      "file": "campaigns/test-bad/emails/01-bad.md",
-      "line": 14,
-      "severity": "medium",
-      "problem": "Still not fixed. The body still has a second link (\"Read the full syllabus\" to /syllabus). emails.md rule 3 allows exactly one main link, and it must point to https://datapath.example/bootcamp.",
-      "fix": "Remove the syllabus link, or make it plain text with no link (for example, \"You'll find the full syllabus on the bootcamp page.\"). Keep only the [Enrol now] link."
-    },
-    {
-      "file": "campaigns/test-bad/emails/01-bad.md",
+      "file": "campaigns/bootcamp-launch/groups/students/emails/E1-enrolment-open.md",
       "line": 1,
       "severity": "low",
-      "problem": "Still not fixed. The file name \"01-bad.md\" does not start with an email ID from a campaign plan, as emails.md rule 5 requires (for example \"E1-...\").",
-      "fix": "Rename it to match its plan ID, for example \"E1-bad.md\". If this test campaign has no plan, give it an ID that follows the same pattern."
+      "problem": "This is a group version of E1, but the file name has no group letter. Rule 5 in .claude/rules/emails.md says group versions must add the group letter.",
+      "fix": "Rename to E1-enrolment-open-A.md (Group A is Students in the plan)."
+    },
+    {
+      "file": "campaigns/bootcamp-launch/groups/students/emails/E3-meet-your-mentor.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Group version of E3 with no group letter in the file name, which breaks rule 5.",
+      "fix": "Rename to E3-meet-your-mentor-A.md."
+    },
+    {
+      "file": "campaigns/bootcamp-launch/groups/students/emails/E6-week-by-week.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Group version of E6 with no group letter in the file name, which breaks rule 5.",
+      "fix": "Rename to E6-week-by-week-A.md."
+    },
+    {
+      "file": "campaigns/bootcamp-launch/groups/students/emails/E8-enrolment-reminder.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Group version of E8 with no group letter in the file name, which breaks rule 5.",
+      "fix": "Rename to E8-enrolment-reminder-A.md."
+    },
+    {
+      "file": "campaigns/bootcamp-launch/groups/career-switchers/emails/E1-enrolment-open.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Group version of E1 with no group letter in the file name, which breaks rule 5.",
+      "fix": "Rename to E1-enrolment-open-B.md (Group B is Career-switchers in the plan)."
+    },
+    {
+      "file": "campaigns/bootcamp-launch/groups/career-switchers/emails/E3-meet-your-mentor.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Group version of E3 with no group letter in the file name, which breaks rule 5.",
+      "fix": "Rename to E3-meet-your-mentor-B.md."
+    },
+    {
+      "file": "campaigns/bootcamp-launch/groups/career-switchers/emails/E6-week-by-week.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Group version of E6 with no group letter in the file name, which breaks rule 5.",
+      "fix": "Rename to E6-week-by-week-B.md."
+    },
+    {
+      "file": "campaigns/bootcamp-launch/groups/career-switchers/emails/E8-enrolment-reminder.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Group version of E8 with no group letter in the file name, which breaks rule 5.",
+      "fix": "Rename to E8-enrolment-reminder-B.md."
+    },
+    {
+      "file": "campaigns/bootcamp-launch/groups/working-pros/emails/E1-enrolment-open.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Group version of E1 with no group letter in the file name, which breaks rule 5.",
+      "fix": "Rename to E1-enrolment-open-C.md (Group C is Working professionals in the plan)."
+    },
+    {
+      "file": "campaigns/bootcamp-launch/groups/working-pros/emails/E3-meet-your-mentor.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Group version of E3 with no group letter in the file name, which breaks rule 5.",
+      "fix": "Rename to E3-meet-your-mentor-C.md."
+    },
+    {
+      "file": "campaigns/bootcamp-launch/groups/working-pros/emails/E6-week-by-week.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Group version of E6 with no group letter in the file name, which breaks rule 5.",
+      "fix": "Rename to E6-week-by-week-C.md."
+    },
+    {
+      "file": "campaigns/bootcamp-launch/groups/working-pros/emails/E8-enrolment-reminder.md",
+      "line": 1,
+      "severity": "low",
+      "problem": "Group version of E8 with no group letter in the file name, which breaks rule 5.",
+      "fix": "Rename to E8-enrolment-reminder-C.md."
     }
   ]
 }
