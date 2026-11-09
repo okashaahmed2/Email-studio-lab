@@ -1,15 +1,16 @@
 // Send guard: a PreToolUse hook for the Resend tools.
 // It blocks any email that would go to someone other than a Resend test
-// address (@resend.dev) or my own address (from the MY_EMAIL env variable).
+// address (@resend.dev) or the address in the MY_EMAIL env variable.
+// MY_EMAIL is set in this repo's .claude/settings.local.json.
+// It works as an allow list. Only these Resend tools are allowed:
+//   - read-only tools (names starting with "list-" or "get-")
+//   - send-email and send-batch-emails, after the recipient check
+// Every other Resend tool is blocked by default.
 // Exit 0 = allow. Exit 2 = block (the reason printed to stderr is shown to Claude).
 
-const ALWAYS_BLOCK = new Set([
-  "send-broadcast",
-  "create-automation",
-  "send-inbox-draft",
-  "send-new-inbox-email",
-]);
+// These send email, so their recipients are checked one by one.
 const CHECK_RECIPIENTS = new Set(["send-email", "send-batch-emails"]);
+const READ_ONLY_PREFIXES = ["list-", "get-"];
 const FIELDS = ["to", "cc", "bcc"];
 
 function block(reason) {
@@ -55,13 +56,15 @@ process.stdin.on("end", () => {
   }
 
   const toolName = String(call.tool_name || "");
-  const action = toolName.replace(/^mcp__resend__/, "");
+  const action = toolName.replace(/^mcp__resend__/, "").toLowerCase();
 
-  if (ALWAYS_BLOCK.has(action)) {
-    block(`"${action}" can reach whole lists of people, so it is never allowed here.`);
+  // Read-only tools can't send anything.
+  if (READ_ONLY_PREFIXES.some((prefix) => action.startsWith(prefix))) process.exit(0);
+
+  // Anything else that isn't a checked send tool is blocked by default.
+  if (!CHECK_RECIPIENTS.has(action)) {
+    block(`"${action}" is not on the allow list (list-*, get-*, send-email, send-batch-emails).`);
   }
-
-  if (!CHECK_RECIPIENTS.has(action)) process.exit(0);
 
   const myEmail = (process.env.MY_EMAIL || "").trim().toLowerCase();
   const recipients = collectRecipients(call.tool_input || {});
