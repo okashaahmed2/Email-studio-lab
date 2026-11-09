@@ -1,0 +1,16 @@
+{
+  "description": "Send guard: allows only Resend list-*/get-* tools, plus send-email and send-batch-emails to @resend.dev test addresses or MY_EMAIL. Blocks every other Resend tool.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__resend__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/send-guard.mjs\""
+          }
+        ]
+      }
+    ]
+  }
+}

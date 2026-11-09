@@ -1,0 +1,11 @@
+{
+  "name": "studio-kit",
+  "owner": { "name": "Okasha Ahmed" },
+  "plugins": [
+    {
+      "name": "studio-kit",
+      "source": "./",
+      "description": "Personalize, review and safely test-send email campaigns for any client."
+    }
+  ]
+}
